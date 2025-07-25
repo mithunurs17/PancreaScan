@@ -72,7 +72,7 @@ export default function Dashboard({ user }: DashboardProps) {
 
       {/* Stats Overview */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-        <div className="bg-white rounded-xl shadow-md p-6">
+        <div className="bg-gradient-to-br from-blue-500 via-purple-500 to-indigo-500 rounded-xl shadow-md p-6 text-white">
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm font-medium text-gray-600">Total Analyses</p>
@@ -84,7 +84,7 @@ export default function Dashboard({ user }: DashboardProps) {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-6">
+        <div className="bg-gradient-to-br from-green-400 via-blue-500 to-purple-500 rounded-xl shadow-md p-6 text-white">
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm font-medium text-gray-600">Completed This Month</p>
@@ -98,7 +98,7 @@ export default function Dashboard({ user }: DashboardProps) {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-6">
+        <div className="bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 rounded-xl shadow-md p-6 text-white">
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm font-medium text-gray-600">Avg. Confidence</p>
@@ -118,7 +118,7 @@ export default function Dashboard({ user }: DashboardProps) {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Recent Analyses */}
-        <div className="bg-white rounded-xl shadow-md p-6">
+        <div className="bg-gradient-to-br from-blue-600 via-blue-400 to-purple-400 rounded-xl shadow-md p-6 text-white">
           <h2 className="text-xl font-semibold text-gray-900 mb-6">Recent Analyses</h2>
           
           {analyses.length === 0 ? (
@@ -154,7 +154,7 @@ export default function Dashboard({ user }: DashboardProps) {
         </div>
 
         {/* Recent Activity */}
-        <div className="bg-white rounded-xl shadow-md p-6">
+        <div className="bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-500 rounded-xl shadow-md p-6 text-white">
           <h2 className="text-xl font-semibold text-gray-900 mb-6">Recent Activity</h2>
           
           {activities.length === 0 ? (

@@ -1,4 +1,3 @@
-import React from 'react';
 import { User, LogOut, Activity, Brain, MessageCircle, Heart } from 'lucide-react';
 import { authService } from '../utils/auth';
 
@@ -28,7 +27,7 @@ export default function Navigation({ currentView, onViewChange, user }: Navigati
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
               <Brain className="h-8 w-8 text-blue-400 mr-3 animate-pulse" />
-              <span className="text-xl font-bold text-white">PancreaAI</span>
+              <span className="text-xl font-bold text-white">PancreaScan</span>
             </div>
           </div>
 

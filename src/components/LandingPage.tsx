@@ -67,7 +67,7 @@ export default function LandingPage({ onGetStarted, onLearnMore }: LandingPagePr
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Brain className="h-8 w-8 text-blue-400 mr-3 animate-pulse" />
-              <span className="text-2xl font-bold text-white">PancreaAI</span>
+              <span className="text-2xl font-bold text-white">PancreaScan</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <button 
